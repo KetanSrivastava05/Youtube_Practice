@@ -1,0 +1,96 @@
+.th1{
+    width:100%;
+    height:100%;    
+    
+}
+.propic{
+    width:100%;
+    
+    border-radius: 50px;
+}
+.vtt{
+    
+    margin-top: 0px;
+    margin-bottom:10px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 10px;
+    font-family: Roboto;
+    text-align: left;
+    height:max-content
+    
+}
+.viau,.vist{
+    font-size:12px;
+    text-align: left;
+    color:rgb(96,96, 96);
+    margin-top: 0px;
+    font-family: Roboto;
+}
+.viau{
+    margin-top: 0px;
+    font-family:Roboto;
+    margin-bottom: 2px;
+    
+    font-family:Roboto;
+    
+}
+.th2{
+    width:300px; 
+      
+    display:block;
+    
+}
+.vipr{
+    width:300px;
+    
+    margin-top: 0;
+}
+body{
+    margin:0;
+    padding-top:80px;
+    padding-left:96px;
+    padding-right:24px;
+    background-color:rgb(248, 248, 248)
+}
+.thumbnail-row{
+    margin-bottom: px;
+    position:relative;
+}
+.video-time{
+    background-color:black;
+    color:white;
+    position:absolute;
+    bottom: 10px;
+    right:5px;
+    Font-family:Roboto,Arial;
+    Font-size:12px;
+    Font-weight:500;
+    padding-left:2px;
+    padding-right:2px;
+    padding-top:4px;
+    padding-bottom:4px;
+    border-radius:4px;
+    
+}
+.video-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+    text-align: center;
+}
+@media (max-width: 600px){
+    .video-grid{
+        grid-template-columns:1fr;
+    
+    }
+   
+}
+@media (min-width: 1000px){
+    .video-grid{
+        grid-template-columns:1fr 1fr 1fr;
+    
+    }
+   
+}
